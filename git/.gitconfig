@@ -1,0 +1,36 @@
+[user]
+  email = swiftie13s@163.com
+  name = Bruce
+[credential "https://gitee.com"]
+  provider = generic
+[alias]
+  a = add
+  b = branch -v
+  m = merge
+  c = commit
+  ca = commit -a
+  d = diff
+  l = log
+  rl = reflog
+  st = status
+  last = diff HEAD^
+[http]
+  sslVerify = false
+[log]
+  date = format:%Y-%m-%d %X
+[format]
+  pretty = %C(auto)%h %s %C(italic dim white)%cn<%ce>[%cd]%Creset%C(auto)%d%Creset%n
+[color]
+  ui = true
+  diff = auto
+  status = auto
+  grep = auto
+[color "branch"]
+  current = yellow reverse
+  local = yellow
+  remote = green
+[color "diff"]
+  meta = yellow bold
+  old = red bold
+  new = green bold
+  frag = magenta bold
