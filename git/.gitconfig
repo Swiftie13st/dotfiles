@@ -1,8 +1,3 @@
-[user]
-  email = swiftie13s@163.com
-  name = Bruce
-[credential "https://gitee.com"]
-  provider = generic
 [alias]
   a = add
   b = branch -v
@@ -14,6 +9,9 @@
   rl = reflog
   st = status
   last = diff HEAD^
+  co = checkout
+  cob = checkout -b
+  l1 = log --pretty=oneline
 [http]
   sslVerify = false
 [log]
