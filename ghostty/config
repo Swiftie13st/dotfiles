@@ -1,0 +1,29 @@
+shell-integration-features = sudo
+
+# theme
+theme = catppuccin-mocha
+font-family = JetBrainsMono Nerd Font
+font-size = 18
+font-thicken = true
+adjust-cell-height = 10%
+
+# Cursor style
+#cursor-style = bar
+
+# Window style
+background-opacity = 0.99
+background-blur-radius = 10
+window-step-resize = true
+window-height = 50
+window-width = 180
+window-padding-x = 18
+window-padding-y = 16
+window-padding-balance = true
+window-inherit-font-size = true
+window-inherit-working-directory = true
+window-new-tab-position = end
+
+# Enable ALT 
+macos-option-as-alt = true
+
+copy-on-select = true
