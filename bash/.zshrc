@@ -102,11 +102,6 @@ source $ZSH/oh-my-zsh.sh
 #
 #
 #
-alias tmux='tmux -u'
-alias ll='ls -alF'
-alias la='ls -A'
-alias l='ls -CF'
-alias cls='clear'
 
 if [ -f ~/.bash_aliases ]; then
     . ~/.bash_aliases
@@ -123,7 +118,7 @@ if [ -x /usr/bin/dircolors ]; then
     alias egrep='egrep --color=auto'
 fi
 
-alias alert='notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo error)" "$(history|tail -n1|sed -e '\''s/^\s*[0-9]\+\s*//;s/[;&|]\s*alert$//'\'')"'
-
 export GO111MODULE=on
 export GOPROXY=https://goproxy.cn,direct
+
+
