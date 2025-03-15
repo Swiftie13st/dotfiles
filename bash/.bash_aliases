@@ -1,0 +1,18 @@
+alias tmux='tmux -u'
+alias ll='ls -alF'
+alias la='ls -A'
+alias l='ls -CF'
+alias cls='clear'
+alias v='nvim'
+alias d='docker'
+alias da='docker attach'
+alias de='docker exec -it '
+alias g='git'
+
+alias alert='notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo error)" "$(history|tail -n1|sed -e '\''s/^\s*[0-9]\+\s*//;s/[;&|]\s*alert$//'\'')"'
+
+# mac rust cross compile to x86_64-linux
+# alias build-musl='CROSS_COMPILE=x86_64-linux-musl- cargo build --target x86_64-unknown-linux-musl --verbose'
+#alias build='cargo build --target x86_64-unknown-linux-gnu'
+alias build='RUSTFLAGS="-A warnings" cargo zigbuild --target x86_64-unknown-linux-gnu'
+alias build-apple='cargo build --target aarch64-apple-darwin'
