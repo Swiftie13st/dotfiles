@@ -7,7 +7,19 @@ alias v='nvim'
 alias d='docker'
 alias da='docker attach'
 alias de='docker exec -it '
+alias ne='nerdctl exec -it '
 alias g='git'
+alias k9='kill -9'
+alias mkdir='mkdir -pv'
+alias tf='tail -f '
+
+alias ..='cd ..'
+alias .2='cd ../..'
+alias .3='cd ../../..'
+alias .4='cd ../../../..'
+alias .5='cd ../../../../..'
+
+alias rsync='rsync -azvhP'
 
 alias alert='notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo error)" "$(history|tail -n1|sed -e '\''s/^\s*[0-9]\+\s*//;s/[;&|]\s*alert$//'\'')"'
 
